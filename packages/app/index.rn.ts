@@ -26,7 +26,7 @@ import { registerCoreComponents } from './src/registerCoreComponents';
  * here
  */
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const { AsyncStorage } = require('react-native');
+const { AsyncStorage } = require('react-native-community/async-storage');
 
 (_firebase as _FirebaseNamespace).INTERNAL.extendNamespace({
   INTERNAL: {
